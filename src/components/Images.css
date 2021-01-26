@@ -1,0 +1,28 @@
+.removable {
+    display: none;
+}
+
+.image-holder:hover .removable {
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    color: rgb(216, 2, 2);
+    top: 4px;
+    left: 4px;
+    width: 13px;
+    height: 13px;
+    border: 1px solid red;
+    line-height: 10px;
+    padding-left: 2px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.image-holder:hover .removable:hover {
+    opacity: 1;
+}
+
+.image-holder {
+    position: relative !important;
+    padding-top: 1px;
+}
